@@ -1,4 +1,4 @@
-package com.example.mensajefx;
+package com.example.demo3;
 
 public class SystemInfo {
 
