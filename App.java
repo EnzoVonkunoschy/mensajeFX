@@ -1,4 +1,4 @@
-package com.example.mensajefx;
+package com.example.demo;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -16,6 +16,7 @@ public class App extends Application {
     public void start(Stage stage) {
         MainView vista = new MainView(stage);
         new MainController(vista);
+
     }
 
     public static void main(String[] args) {

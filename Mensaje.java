@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.example.mensajefx;
+package com.example.demo;
 
 /**
  *
@@ -22,5 +22,8 @@ public class Mensaje {
     public String toString(){
         return this.destinatario+"  "+this.remitente+"  "+this.texto;
     }
-    
+
+    public String getTexto() {
+        return texto;
+    }
 }
