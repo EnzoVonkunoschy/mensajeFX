@@ -1,4 +1,4 @@
-package com.example.mensajefx;
+package com.example.proyectop2;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
