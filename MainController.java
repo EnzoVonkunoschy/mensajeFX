@@ -1,5 +1,5 @@
 
-package com.example.mensajefx;
+package com.example.controlador;
 
 import java.util.HashSet;
 
@@ -23,6 +23,8 @@ public class MainController {
 
             Mensaje mensaje = new Mensaje(desti, remi, text);
             vista.setMensaje(mensaje);
+            Controlador controlador = new Controlador();
+            controlador.mostrarXConsola(mensaje);
 
             /*
             vista.getMDestinatario().setText(vista.getDestinatario().getText());
