@@ -1,4 +1,4 @@
-package com.example.mensajefx;
+package com.example.flaviaproyecto;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
