@@ -1,4 +1,4 @@
-package com.example.mensajefx;
+package org.example.miproyecto;
 
 public class SystemInfo {
 
