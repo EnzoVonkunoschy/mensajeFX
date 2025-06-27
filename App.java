@@ -1,4 +1,4 @@
-package com.example.mensajefx;
+package com.example.controlador2;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
