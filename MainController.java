@@ -24,6 +24,8 @@ public class MainController {
             Mensaje mensaje = new Mensaje(desti, remi, text);
             vista.setMensaje(mensaje);
 
+            Controlador.mostrarXConsola(mensaje);
+
             /*
             vista.getMDestinatario().setText(vista.getDestinatario().getText());
             vista.getMRemitente().setText(vista.getRemitente().getText());
@@ -31,4 +33,5 @@ public class MainController {
         });
         
     }
+
 }
