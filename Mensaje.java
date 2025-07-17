@@ -20,7 +20,7 @@ public class Mensaje {
     }
     
     public String toString(){
-        return "Destinatario: " + this.destinatario+", Remitente: "+this.remitente+", Texto:   "+this.texto;
+        return this.destinatario+"  "+this.remitente+"  "+this.texto;
     }
     
 }
