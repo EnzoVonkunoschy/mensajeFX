@@ -14,10 +14,10 @@ public class MainController {
         this.usuario = new Usuario("Enzo");
 
         vista.getLabel().setText("Bienvenido, " + usuario.getNombre());
-        
-        vista.getButton().setOnAction(e ->{ 
 
-            String desti = vista.getDestinatario().getText(); 
+        vista.getButton().setOnAction(e ->{
+
+            String desti = vista.getDestinatario().getText();
             String remi  = vista.getRemitente().getText();
             String text  = vista.getTexto().getText();
 
@@ -30,6 +30,6 @@ public class MainController {
             vista.getMRemitente().setText(vista.getRemitente().getText());
             vista.getMTexto().setText(vista.getTexto().getText());*/
         });
-        
+
     }
 }

@@ -16,12 +16,13 @@ public class App extends Application {
     public void start(Stage stage) {
         MainView vista = new MainView(stage);
         new MainController(vista);
+
     }
 
     public static void main(String[] args) {
         launch(args);
-        Controlador control = new Controlador();
-
     }
+
+
 
 }
