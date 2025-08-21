@@ -1,4 +1,4 @@
-package com.example.controlador2;
+package com.example.mensajefx;
 
 public class Controlador {
     public static void mostrarXConsola(Mensaje mensaje){

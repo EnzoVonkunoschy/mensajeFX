@@ -1,5 +1,5 @@
 
-package com.example.controlador2;
+package com.example.mensajefx;
 
 import java.util.HashSet;
 

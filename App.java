@@ -1,4 +1,4 @@
-package com.example.controlador2;
+package com.example.mensajefx;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -16,9 +16,14 @@ public class App extends Application {
     public void start(Stage stage) {
         MainView vista = new MainView(stage);
         new MainController(vista);
+
+        stage.setTitle("JavaFX sin FXML");
+        stage.setScene(vista.getScene());
+        stage.show();
     }
 
     public static void main(String[] args) {
+
         launch(args);
     }
 

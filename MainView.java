@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.example.controlador2;
+package com.example.mensajefx;
 
 
 import javafx.scene.Scene;
@@ -45,9 +45,12 @@ public class MainView {
 
         scene = new Scene(layout, 400, 300);
 
-        stage.setTitle("JavaFX sin FXML");
-        stage.setScene(scene);
-        stage.show();
+       // stage.setTitle("JavaFX sin FXML");
+       // stage.setScene(scene);
+        //stage.show();
+    }
+    public Scene getScene(){
+        return scene;
     }
 
     public Button getButton() {
