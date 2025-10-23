@@ -1,8 +1,8 @@
 package com.example.mensajefx;
 
+
 public class Controlador {
-    public static void mostrarXConsola(Mensaje mensaje){
+    public static void mostrarXconsola(Mensaje mensaje){
         System.out.println(mensaje);
     }
-
 }
