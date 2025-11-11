@@ -51,6 +51,7 @@ public class MainView {
     }
 
     public Button getButton() {
+
         return button;
     }
 
@@ -59,14 +60,17 @@ public class MainView {
     }
     
     public TextField getDestinatario(){
+
         return destinatario;
     }
     
     public TextField getRemitente(){
+
         return remitente;
     }
     
-    public TextField getTexto(){
+    public TextField getTexto() {
+
         return texto;
     }
     
@@ -77,6 +81,7 @@ public class MainView {
     }
     
     public Label getMDestinatario(){
+
         return mDestinatario;
     }
     

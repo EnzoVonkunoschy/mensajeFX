@@ -22,5 +22,4 @@ public class Mensaje {
     public String toString(){
         return this.destinatario+"  "+this.remitente+"  "+this.texto;
     }
-    
 }

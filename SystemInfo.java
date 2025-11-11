@@ -3,6 +3,7 @@ package com.example.mensajefx;
 public class SystemInfo {
 
     public static String javaVersion() {
+
         return System.getProperty("java.version");
     }
 
